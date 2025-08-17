@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body {
-  background: url("./assets/wplacebackgorund.png") ;
+  background: url("./assets/backgroundimg.png") ;
   background-size: 100%;
   backdrop-filter: blur(.5rem) brightness(60%);
   margin: 0;
