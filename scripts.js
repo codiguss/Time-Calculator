@@ -25,7 +25,7 @@ function formatTime(seconds) {
   let result = ""
 
   if (days > 0) {
-    result += `${days}d`
+    result += `${days}d `
   }
 
   if (hours > 0) {
@@ -42,6 +42,7 @@ function formatTime(seconds) {
 
   return result.trim() || "0s"
 }
+
 
 pixelSpaceInput.addEventListener("input", function() {
   if (this.value) {
